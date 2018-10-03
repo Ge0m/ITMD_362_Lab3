@@ -207,9 +207,20 @@ h1, p{
   text-align: center;
 }
 
-
-
 /* ===== LAYOUT STYLES ====== */
+
+input{
+  box-sizing: border-box;
+  padding: 20px;
+  height: 80px;
+  border: 0;
+  background-color: #D3D3D3;
+}
+
+input[type="submit"] {
+	background-color: #909090;
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
