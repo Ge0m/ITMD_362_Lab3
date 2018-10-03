@@ -218,7 +218,7 @@ main{
 input{
   box-sizing: border-box;
   padding: 20px;
-  height: 80px;
+  height: 65px;
   border: 0;
   font-family: inherit;
   font-size: inherit;
@@ -231,7 +231,7 @@ input[type="submit"] {
 }
 
 input[type="submit"], input[type="email"]{
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -240,6 +240,13 @@ input[type="checkbox"]{
   height: auto;
   float: left;
   display: inline;
+}
+
+@media screen and (min-width: 480px){
+  input[type="submit"], input[type="email"]{
+    width: 50%;
+    height: 80px;
+  }
 }
 
 /* ===== MODULAR STYLES ===== */
