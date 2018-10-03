@@ -279,6 +279,6 @@ p, h1 {
 }
 
 .hasjs #age-verification {
-  position: left;
+  position: absolute;
   left: 6000px;
 }
