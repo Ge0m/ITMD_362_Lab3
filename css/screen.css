@@ -262,3 +262,23 @@ p, h1 {
   padding: 0.8em;
 }
 /* ===== STATE STYLES ======= */
+/*.hasjs class will only exist if js runs*/
+.hasjs #input-email {
+  position: relative;
+}
+
+.hasjs #input-email label {
+  transition: top 1s;
+  top: 35px;
+  left: 30px;
+  position: absolute;
+}
+
+.hasjs #input-email label.active {
+  top: -25px;
+}
+
+.hasjs #age-verification {
+  position: left;
+  left: 6000px;
+}
