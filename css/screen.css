@@ -210,6 +210,11 @@ h1, p{
 
 /* ===== LAYOUT STYLES ====== */
 
+main{
+  text-align: center;
+  margin: auto;
+}
+
 input{
   box-sizing: border-box;
   padding: 20px;
@@ -239,4 +244,9 @@ input[type="checkbox"]{
 
 /* ===== MODULAR STYLES ===== */
 
+li{
+  padding: 0.6em;
+}
+
 /* ===== STATE STYLES ======= */
+
