@@ -196,7 +196,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  font-family: 'Arial Black', 'Ubuntu', sans-serif;
+  font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
 }
 
 label {
@@ -219,6 +219,17 @@ input{
 
 input[type="submit"] {
 	background-color: #909090;
+}
+
+input[type="submit"], input[type="email"]{
+  width: 60%;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  float: left;
 }
 
 
