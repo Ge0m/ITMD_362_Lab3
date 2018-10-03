@@ -205,7 +205,7 @@ label {
 
 h1, p{
   text-align: center;
-  padding-bottom: 1.182em;
+  padding-bottom: 1.2em;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -252,8 +252,13 @@ input[type="checkbox"]{
 /* ===== MODULAR STYLES ===== */
 
 li{
-  padding: 0.6em;
+  padding: 1.2em;
 }
 
+p, h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.8em;
+}
 /* ===== STATE STYLES ======= */
 
