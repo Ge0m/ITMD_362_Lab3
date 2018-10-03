@@ -196,11 +196,18 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  font-family: 'Arial Black', 'Ubuntu', sans-serif;
 }
 
 label {
   display: block;
 }
+
+h1, p{
+  text-align: center;
+}
+
+
 
 /* ===== LAYOUT STYLES ====== */
 
